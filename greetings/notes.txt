@@ -1,0 +1,34 @@
+1) should name at least three new major features of java 9 
+    - modules
+    - flow api
+    - jREPL
+    - Collection factories
+    - CompletableFuture
+    - improved try-with-catch
+    
+    https://cwiki.apache.org/confluence/display/MAVEN/Java+9+-+Jigsaw
+    
+2) should be able to create module based application
+    - create simple application 
+    
+http://openjdk.java.net/projects/jigsaw/quick-start
+
+jlink --module-path /c/Program\ Files/Java/jdk-9/jmods;mlib --add-modules com.greetings --output greetingsapp
+
+No exceptions: 
+
+    Path path = Paths.get("greetings.iml")
+    Stream<String> lines = Files.lines(path)
+    lines.forEach(s -> System.out.println(s))
+
+Forward reference: 
+
+    double volume(double radius){
+        return 4.0/3.0* PI * cube(radius);
+    }
+
+    
+Streams: 
+    
+    IntStream.range(0, 10).takeWhile(i -> i<5).forEach(i -> System.out.println(i))
+    Stream<Integer> s = Optional.of(1).stream();
