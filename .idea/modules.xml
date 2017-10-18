@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/greetings/greetings.iml" filepath="$PROJECT_DIR$/greetings/greetings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/greetings/src/com.greetings/com.greetings.iml" filepath="$PROJECT_DIR$/greetings/src/com.greetings/com.greetings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/greetings/src/org.astro/org.astro.iml" filepath="$PROJECT_DIR$/greetings/src/org.astro/org.astro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/other.module/other.module.iml" filepath="$PROJECT_DIR$/other.module/other.module.iml" />
     </modules>
   </component>
 </project>

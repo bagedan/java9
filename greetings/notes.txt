@@ -17,7 +17,7 @@ jlink --module-path /c/Program\ Files/Java/jdk-9/jmods;mlib --add-modules com.gr
 
 No exceptions: 
 
-    Path path = Paths.get("greetings.iml")
+    Path path = Paths.get("123.txt")
     Stream<String> lines = Files.lines(path)
     lines.forEach(s -> System.out.println(s))
 
